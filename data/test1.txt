@@ -1,0 +1,4 @@
+place 1,2,NORTH
+move1
+move1
+report

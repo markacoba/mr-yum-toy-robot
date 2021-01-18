@@ -1,0 +1,28 @@
+{
+  "name": "mr-yum-toy-robot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/report.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node ./app/clear.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markacoba/mr-yum-toy-robot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/markacoba/mr-yum-toy-robot/issues"
+  },
+  "homepage": "https://github.com/markacoba/mr-yum-toy-robot#readme",
+  "bin": {
+    "report": "./bin/report.js",
+    "place": "./bin/place.js",
+    "move1": "./bin/move.js",
+    "left": "./bin/left.js",
+    "right": "./bin/right.js",
+    "load": "./bin/load.js"
+  }
+}
